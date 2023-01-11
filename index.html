@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- FavIcon -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
     <link rel="shortcut icon" href="img/logo/logo SMANDUNG.png" type="image/x-icon" />
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
@@ -16,17 +15,17 @@
 
     <title>SMANDUNG Official Website</title>
   </head>
-  <body id="body">
+  <body style="font-family: Sen">
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #002774">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm" style="background-color: #002774">
       <div class="container">
         <a class="navbar-brand fw-bold" href="/tugasakhir_webdesign/">SMAN 1 KEDUNGWUNI</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item fw-bold"><a class="nav-link active" aria-current="page" href="#">Beranda</a></li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item fw-bold"><a class="nav-link active" href="#">Beranda</a></li>
             <li class="nav-item"><a class="nav-link" href="profil.html">Profil</a></li>
             <li class="nav-item"><a class="nav-link" href="agenda.html">Agenda</a></li>
             <li class="nav-item"><a class="nav-link" href="konten.html">Konten</a></li>
@@ -38,104 +37,101 @@
     </nav>
     <!-- Akhir Navbar -->
 
-    <!-- Header -->
-    <div class="card text-bg-dark">
-      <img src="img/Header.png" class="card-img" class="img-fluid" alt="smandung" />
-      <div class="card-img-overlay">
-        <section>
-          <h3 class="card-title-fluid position-absolute bottom-0 start-0 px-5 mb-5 text-light">
-            Selamat Siang,
-            <p class="text-light fw-bold">Selamat Datang di SMANDUNG Official Website</p>
-            <p class="card-text">
-              <small>Sekolah Menengah Atas unggulan Kabupaten Pekalongan yang "unggul Dalam Prestasi, Terampil dan Berakhlakul Karimah" ini berdiri sejak 20 November 1984 dan menjadi sekolah favorit di daerah Kab. Pekalongan.</small>
-            </p>
-          </h3>
-        </section>
-      </div>
-    </div>
-    <!-- Akhir Header -->
-
-    <!-- Header Info -->
-    <!-- Info 1 -->
-    <div class="row row-cols-3 row-cols-md-3 g-4 px-4 mt-1">
-      <div class="col">
-        <div class="card h-100">
-          <a href="agenda.html">
-            <img src="img/Info 1.png" class="card-img-top" alt="Info_1" />
-            <div class="card-body text-dark">
-              <h3 class="card-title fw-bold">PPDB 2022/2023</h3>
-              <p class="card-text">Pantengin terus informasi terbaru PPDB SMAN 01 Kedungwuni disini atau cek Instagram resmi kita @igers_smandung</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- Info 2 -->
-      <div class="col">
-        <div class="card h-100">
-          <a href="agenda.html">
-            <img src="img/Info 2.png" class="card-img-top" alt="Info_1" />
-            <div class="card-body text-dark">
-              <h3 class="card-title fw-bold">PPDB 2022/2023</h3>
-              <p class="card-text">Pantengin terus informasi terbaru PPDB SMAN 01 Kedungwuni disini atau cek Instagram resmi kita @igers_smandung</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- Info 3 -->
-      <div class="col">
-        <div class="card h-100">
-          <a href="agenda.html">
-            <img src="img/Info 3.png" class="card-img-top" alt="Info_1" />
-            <div class="card-body text-dark">
-              <h3 class="card-title fw-bold">PPDB 2022/2023</h3>
-              <p class="card-text">Pantengin terus informasi terbaru PPDB SMAN 01 Kedungwuni disini atau cek Instagram resmi kita @igers_smandung</p>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Akhir Header Info -->
-
-    <!-- SMANDUNG DALAM ANGKA -->
-    <div class="container-fluid-xl" style="background-color: #002774" id="isi">
-      <div class="mt-5">
-        <section id="fakta">
-          <div class="container-fluid justify-content text-center" data-aos="fade-up">
-            <div class="section-fluid-title">
-              <div class="row text-light">
-                <h2 class="fw-bold text-center mt-4 mb-3">SMANDUNG DALAM ANGKA</h2>
-                <div class="col-lg-3 col-md-6">
-                  <div class="count-box"><i class="bi bi-emoji-smile"></i> <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span></div>
-                  <p class="mb-1">Guru</p>
-                  <h2><span>35</span></h2>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                  <div class="count-box"><i class="bi bi-emoji-smile"></i> <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span></div>
-                  <p class="mb-1">Siswa & Siswi</p>
-                  <h2><span>2048</span></h2>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                  <div class="count-box"><i class="bi bi-emoji-smile"></i> <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span></div>
-                  <p class="mb-1">Alumni</p>
-                  <h2><span>61,632</span></h2>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                  <div class="count-box"><i class="bi bi-emoji-smile"></i> <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span></div>
-                  <p class="mb-1">Hektar Sekolah</p>
-                  <h2><span>50</span></h2>
-                </div>
+    <!-- Carousel Header -->
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="bd-placeholder-img" src="img/header/Header.png"></img>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="mt-5 fw-bold" style="font-family: Poppins;" id="greetings"></h1>
+                <p>Selamat Datang di SMANDUNG Official Website
+                  <small>Sekolah Menengah Atas unggulan Kabupaten Pekalongan yang "unggul Dalam Prestasi, Terampil dan Berakhlakul Karimah" ini berdiri sejak 20 November 1984 dan menjadi sekolah favorit di daerah Kab. Pekalongan.</small>
+                </p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </main>
+    <!-- End Carousel Header -->
+
+    <!-- Info-Info -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow">
+            <a href="agenda.html">
+            <img src="img/info/info (1).png" class="card-img-top"></a>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">PPDB 2022/2023</h5>
+              <p class="card-text">Pantengin terus informasi terbaru PPDB SMAN 01 Kedungwuni disini atau cek Instagram resmi kita @igers_smandung</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <a href="agenda.html">
+            <img src="img/info/info (2).png" class="card-img-top"></a>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">PROFIL SMANDUNG</h3>
+                <p class="card-text">Mau tau gak nih, profile SMANDUNG yang menarik, apa aja sih fasilitas kita? bagaimana sarana dan prasarana belajar disini. Cek selengkapnya kilik disini yaa</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <a href="agenda.html">
+            <img src="img/info/info (3).png" class="card-img-top"></a>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">PODCAST SMANDUNG</h3>
+                <p class="card-text">Podcastnya wong SMANDUNG, dengan bintang tamu yang sangat menginspirasi. Konten spesial hasil anak SMANDUNG? Kalau mau tau cek YouTube Official kita yaa. Stay Tune</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- Akhir SMANDUNG DALAM ANGKA -->
+    <!-- End Info-Info -->
+
+    <!-- Angka SMANDUNG -->
+    <div class="container-fluid mt-5" style="color: white; background-color: #002774">
+      <div class="row">
+          <div class="col-md-12">
+            <section class="mt-5 mb-5">
+              <h2 class="fw-bold text-center">SMANDUNG DALAM ANGKA</h2>
+            </section>
+            <section id="counts" class="counts section-bg mb-5">
+              <div class="container">
+                <div class="row counters">
+                  <div class="col-lg-3 text-center fw-bold">
+                    <p>Siswa-Siswi</p>
+                    <h1>20</h1>
+                  </div>
+                  <div class="col-lg-3 text-center fw-bold">
+                    <p>Mata Pelajaran</p>
+                    <h1>15</h1>
+                  </div>
+                  <div class="col-lg-3 text-center fw-bold">
+                    <p>Alumni</p>
+                    <h1>61</h1>
+                  </div>
+                  <div class="col-lg-3 text-center fw-bold">
+                    <p>Pengajar dan Staff</p>
+                    <h1>35</h1>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+      </div>
+    </div>
+    <!-- End Angka SMANDUNG -->
 
     <!-- Hero Section /Isi -->
-    <div class="container-fluid text-center mt-5">
-      <img src="img/pramuka.gif" id="pramuka" alt="Pramuka SMANDUNG" />
-      <h2 class="mt-4 fw-bold">AYO DAFTAR</h2>
+    <div class="container-fluid text-center mt-5 mb-5">
+      <img src="img/jumbotron/pramuka.gif" width="300px" alt="Pramuka SMANDUNG" />
+      <h2 class="mt-4 fw-bolder">AYO DAFTAR</h2>
       <p></p>
       <h3>DI SMAN 1 KEDUNGWUNI</h3>
       <p></p>
@@ -145,13 +141,13 @@
     <!-- Akhir Hero Section /Isi -->
 
     <!-- Tentang AKADEMIK -->
-    <div class="akademik text-center mt-5">
-      <h2 class="fw-bold">AKADEMIK</h2>
+    <div class="container-fluid text-center mt-5">
+      <h2 class="fw-bolder" style="margin-top: 15vh">AKADEMIK</h2>
       <p></p>
       <h6>Mempersiapkan mahasiswa untuk memberikan kontribusi yang berarti pada masyarakat, bangsa, dan dunia</h6>
       <div class="row justify-content-center mt-5">
         <div class="col-sm-3">
-          <div class="card">
+          <div class="card shadow">
             <div class="card-body">
               <h3 class="card-title fw-bold">MENGAPA SMANDUNG?</h3>
               <hr />
@@ -160,7 +156,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="card">
+          <div class="card shadow">
             <div class="card-body">
               <h3 class="card-title fw-bold">TENTANG KURIKULUM</h3>
               <hr />
@@ -169,7 +165,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="card">
+          <div class="card shadow">
             <div class="card-body">
               <h3 class="card-title fw-bold">BAGAIMANA FASILITASNYA?</h3>
               <hr />
@@ -182,7 +178,7 @@
     <!-- Akhir Tentang AKADEMIK -->
 
     <!-- Footer -->
-    <div class="container-fluid-xl">
+    <div class="container-fluid-xl" style="margin-top: 15vh">
       <footer class="text-white text-center-start" style="background-color: #002774" id="footer">
         <div class="container-fluid p-4">
           <div class="row mt-4">
@@ -272,9 +268,26 @@
           © 2022 Copyright:
           <a class="text-white" href="https://www.instagram.com/aautoruns/">@aautoruns</a>
         </div>
-        <!-- Copyright -->
+        <!-- End Copyright -->
       </footer>
     </div>
     <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Timestamp -->
+    <script>
+      var myDate = new Date();
+      var hrs = myDate.getHours();
+      var greet;
+
+      if (hrs < 12)
+          greet = 'Selamat Pagi';
+      else if (hrs >= 12 && hrs <= 17)
+          greet = 'Selamat Siang';
+      else if (hrs >= 17 && hrs <= 24)
+          greet = 'Selamat Malam';
+      document.getElementById('greetings').innerHTML = '<b>' + greet + '</b>';
+  </script>
+
   </body>
 </html>
