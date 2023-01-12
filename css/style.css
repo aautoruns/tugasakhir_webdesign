@@ -65,69 +65,93 @@
   }
 }
 
-#galeri {
-    max-width: 100rem;
-    padding: 4rem 2rem 2rem;
-    margin-bottom: 5cm;
-  }
-  
-  .heading span {
-    display: block;
-  }
-  
+.heading span {
+  display: block;
+}
+
+.gallery {
+  padding: 5rem 5rem 5rem 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 365px;
+  height: 365px;
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-in;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+
+@supports (display: grid) {
   .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    /* Compensate for excess margin on outer gallery flex items */
-    margin: -1rem -1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
   }
-  
+  .gallery,
   .gallery-item {
-    /* Minimum width of 24rem and grow to fit available space */
-    width: 480px;
-    height: 300px;
-    flex: 1 0 24rem;
-    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-    margin: 1rem;
-    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-    overflow: hidden;
+    margin: 0;
   }
-  
-  .gallery-image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 400ms ease-in;
+}
+
+.podcast {
+  padding: 5rem 5rem 5rem 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.podcast-item {
+  width: 360px;
+  height: 230px;
+  overflow: hidden;
+}
+
+.podcast-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-in;
+}
+
+.podcast-image:hover {
+  transform: scale(1.15);
+}
+
+@supports (display: grid) {
+  .podcast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
   }
-  
-  .gallery-image:hover {
-    transform: scale(1.15);
+  .podcast,
+  .podcast-item {
+    margin: 0;
   }
-  
-  @supports (display: grid) {
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-      grid-gap: 2rem;
-    }
-    .gallery,
-    .gallery-item {
-      margin: 0;
-    }
-  }
-  
-  #kontak {
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .kontak-judul {
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-  }
-  
-  .kontak-pesan {
-    font-style: bold;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }  
+}
+
+#kontak {
+  font-family: 'Poppins', sans-serif;
+}
+
+.kontak-judul {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.kontak-pesan {
+  font-style: bold;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
