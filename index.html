@@ -310,9 +310,11 @@
 
     if (hrs < 12)
       greet = 'Selamat Pagi';
-    else if (hrs >= 12 && hrs <= 17)
+    else if (hrs >= 12 && hrs <= 15)
       greet = 'Selamat Siang';
-    else if (hrs >= 17 && hrs <= 24)
+    else if (hrs >= 15 && hrs <= 18)
+      greet = 'Selamat Sore';
+    else if (hrs >= 18 && hrs <= 24)
       greet = 'Selamat Malam';
     document.getElementById('greetings').innerHTML = '<b>' + greet + '</b>';
   </script>
